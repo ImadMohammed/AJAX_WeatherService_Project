@@ -2,7 +2,7 @@
     <head>
         <title>Weather Application</title>
 
-        
+        <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 
 
@@ -16,6 +16,7 @@
                     <div class="container">
             
                         <div class="navbar-header">
+                            <a href="" class="nav-brand navbar-link weather"></a>
                             <a href="" class="nav-brand navbar-link"></a>
                             <img src="" alt=""><strong>Amazing Weather App</strong>
             
@@ -26,9 +27,13 @@
                                 <span class="icon-bar"></span>
                             </button>
                          </div>
-                         <div class="collapse">
-                             
-                         </div>
+                         <div class="collapse navbar-collapse" id="navcol">
+                                <ul class="nav navbar-nav navbar-right">
+                                   <li><a href="current.html">Current</a></li>
+                                   <li><a href="forecast.html">Forecast</a></li>
+                                   <li><a href="">Open Weather Map</a></li>
+                               </ul>
+                            </div>
                     </div>    
             
                 </nav>
